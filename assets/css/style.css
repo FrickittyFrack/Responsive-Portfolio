@@ -1,0 +1,287 @@
+body {
+    color: black;
+    line-height: 36px !important;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.my-name {
+    color: #ffffff;
+    background-color: rgb(106, 13, 192);
+    font-size: 35px;
+    font-weight: bold;
+    float: left;
+    padding: 20px;
+    margin-left: 98px;
+    position: fixed;
+    left: 0;
+    top: 2px;
+    z-index: 1;
+}
+
+.nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    border: #cccccc solid 2px;
+    margin: 0px;
+    font-weight: bold;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    padding-right: 100px;
+}
+
+.nav-button {
+    float: right;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: 0.4s;
+}
+
+.nav-button1 {
+    float: right;
+    padding: 10px;
+    margin: 5px 100px 5px 5px;
+    text-decoration: none;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: 0.4s;
+}
+
+.nav-button:hover {
+    background-color: #636262;
+    color: #ffffff;
+}
+
+.nav-button1:hover {
+    background-color: #636262;
+    color: #ffffff;
+}
+
+.main-header {
+    color: rgb(106, 13, 192);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-bottom: #dddddd solid 2px;
+}
+
+.main-content {
+    background-color: #ffffff;
+    border: #dddddd solid 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    height: 100%;
+    margin: 120px 100px 95px 100px;
+    padding: 20px;
+    align-content: center;
+}
+
+.footer {
+    background-color: #666666;
+    border-top: rgb(106, 13, 192) solid 4px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.footer p {
+    vertical-align: bottom;
+    text-align: center;
+    color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bio {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    padding-top: 20px;
+}
+
+#my-face {
+    width: 193px;
+    height: 246px;
+    float: left;
+    padding: 10px;
+    margin-right: 17px;
+}
+
+#rainbow-six-siege {
+    width: 380px;
+    height: 214px;
+    float: left;
+    padding: 10px;
+    margin-right: 17px;
+}
+
+#world-of-warcraft {
+    width: 380x;
+    height: 218px;
+    float: right;
+    padding: 10px;
+}
+
+#set-box {
+    float: right;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+#set-design {
+    width: 300px;
+    height: 300px;
+}
+
+#form {
+    padding-top: 20px;
+}
+
+#submit-button {
+    background-color: rgb(106, 13, 192);
+    color: #ffffff;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#submit-button:hover {
+    background-color: rgb(76, 2, 145);
+}
+
+input[type=text]:focus {
+    border:#666666 solid 3px;
+}
+
+#name {
+    resize: none;
+    width: 80%;
+    height: 6px;
+    padding: 15px;
+}
+
+#email {
+    resize: none;
+    width: 80%;
+    height: 6px;
+    padding: 15px;
+}
+
+#message {
+    resize: none;
+    width: 80%;
+    height: 200px;
+    padding: 15px;
+}
+
+#portfolio-pics {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.port-labels {
+    color: #ffffff;
+    background-color: rgb(106, 13, 192);
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    width: 260px;
+    position: absolute;
+    left: 0;
+    bottom: 26px;
+}
+
+.portfolio-image {
+    position: relative;
+    flex: 100px;
+    margin: 0 40px 40px 0;
+}
+
+@media screen and (max-width: 980px) {
+
+    .my-name {
+        z-index: 1;
+    }
+
+    .nav {
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .my-name {
+        z-index: 1;
+    }
+
+    .nav {
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
+    .my-name {
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin: auto;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+    }
+
+    .main-content {
+        margin: 148px 20px 80px 20px;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .nav {
+        position: fixed;
+        top: 76px;
+        text-align: center;
+        height: 45px;
+        z-index: 1;
+    }
+
+    .nav-button {
+        float: none;
+        padding: 5px;
+    }
+
+    .nav-button1 {
+        float: none;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    #my-face {
+        width: 270px;
+        height: 344px;
+        float: left;
+        padding: 10px;
+        margin-right: 17px;
+    }
+}
